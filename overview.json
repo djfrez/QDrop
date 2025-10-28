@@ -5,17 +5,18 @@
   "files": [
     {
       "name": "index.html",
-      "role": "Página principal com todas as seções: Hero, Como Funciona, Benefícios, Catálogo, FAQ, Depoimentos e Rodapé.",
+      "role": "Página principal com herói atualizado (qdrop_pedidos.jpg), favicon qdrop-icon.jpg apenas na aba, e logos 20% maiores.",
       "links": [
         "styles.css",
         "script.js",
         "qdrop-logo.png",
-        "qdrop-icon.jpg"
+        "qdrop-icon.jpg",
+        "qdrop_pedidos.jpg"
       ]
     },
     {
       "name": "styles.css",
-      "role": "Estilos globais com paleta, gradiente e layout responsivo."
+      "role": "Estilos com paleta, gradiente e responsivo; ajustes em logos e hero image."
     },
     {
       "name": "script.js",
@@ -23,11 +24,15 @@
     },
     {
       "name": "qdrop-logo.png",
-      "role": "Logo fornecido (renomeado)."
+      "role": "Logo QDrop."
     },
     {
       "name": "qdrop-icon.jpg",
-      "role": "Ícone fornecido (renomeado)."
+      "role": "Ícone apenas para favicon."
+    },
+    {
+      "name": "qdrop_pedidos.jpg",
+      "role": "Imagem do herói (painel de vendas/pedidos)."
     }
   ]
 }
