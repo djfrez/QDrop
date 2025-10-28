@@ -1,0 +1,33 @@
+{
+  "project": "QDrop Landing Page (static)",
+  "language": "pt-BR",
+  "flat_structure": true,
+  "files": [
+    {
+      "name": "index.html",
+      "role": "Página principal com todas as seções: Hero, Como Funciona, Benefícios, Catálogo, FAQ, Depoimentos e Rodapé.",
+      "links": [
+        "styles.css",
+        "script.js",
+        "qdrop-logo.png",
+        "qdrop-icon.jpg"
+      ]
+    },
+    {
+      "name": "styles.css",
+      "role": "Estilos globais com paleta, gradiente e layout responsivo."
+    },
+    {
+      "name": "script.js",
+      "role": "Interações: menu mobile, rolagem suave, newsletter fake e ano no rodapé."
+    },
+    {
+      "name": "qdrop-logo.png",
+      "role": "Logo fornecido (renomeado)."
+    },
+    {
+      "name": "qdrop-icon.jpg",
+      "role": "Ícone fornecido (renomeado)."
+    }
+  ]
+}
