@@ -1,4 +1,4 @@
-/* ====== QDROP Styles (restored + updated) ====== */
+/* ====== QDROP Styles (restored + updated + 4-column Como Funciona) ====== */
 
 /* Paleta, gradiente e variáveis */
 :root{
@@ -71,8 +71,18 @@ body{
 .section.alt{background:#f9fbfd}
 .section-title{font-size: clamp(24px, 4vw, 34px);margin:0 0 20px;text-align:center}
 
-/* Como Funciona */
-.cols-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+/* Como Funciona - agora 4 colunas desktop/tablet, 2 no mobile */
+.cols-3{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+@media (max-width:640px){
+  .cols-3{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
 .card{background:#fff;border:1px solid #e7ebf0;border-radius:16px;padding:20px;box-shadow:0 6px 16px rgba(0,0,0,.04)}
 .step .icon{font-size:28px}
 .note{text-align:center;margin-top:14px;font-style:italic;color:#475569}
@@ -190,7 +200,6 @@ body{
 @media (max-width: 640px){
   .menu{display:none}
   .nav-toggle{display:block}
-  .cols-3{grid-template-columns:1fr}
   .grid-cards{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr}
 }
